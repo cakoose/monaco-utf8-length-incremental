@@ -1,5 +1,6 @@
 {
   "name": "monaco-utf8-length-incremental",
+  "license": "CC0",
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack"
