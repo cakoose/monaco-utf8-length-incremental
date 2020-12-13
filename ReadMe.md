@@ -7,8 +7,8 @@ The byte count is kept updated incrementally by observing changes to the underly
 ## To run:
 
 ```
-$ npm install
-$ npm run start   # will start a webserver on localhost
+$ yarn install --frozen-lockfile
+$ yarn run start   # will start a webserver on localhost
 ```
 
 All the important code is in "src/index.ts".
