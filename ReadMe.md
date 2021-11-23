@@ -7,7 +7,7 @@ The byte count is kept updated incrementally by observing changes to the underly
 ## To run:
 
 ```
-$ yarn install --frozen-lockfile
+$ yarn install
 $ yarn run start   # will start a webserver on localhost
 ```
 
