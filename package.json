@@ -6,19 +6,19 @@
     "build": "webpack"
   },
   "dependencies": {
-    "monaco-editor": "0.44.0"
+    "monaco-editor": "0.45.0"
   },
   "devDependencies": {
-    "css-loader": "6.8.1",
+    "css-loader": "6.9.0",
     "file-loader": "6.2.0",
-    "html-webpack-plugin": "5.5.3",
-    "style-loader": "3.3.3",
-    "ts-loader": "9.5.0",
-    "typescript": "5.2.2",
+    "html-webpack-plugin": "5.6.0",
+    "style-loader": "3.3.4",
+    "ts-loader": "9.5.1",
+    "typescript": "5.3.3",
     "webpack": "5.89.0",
     "webpack-cli": "5.1.4",
     "webpack-dev-server": "4.15.1"
   },
   "version": "0.0.0",
-  "packageManager": "yarn@3.6.1"
+  "packageManager": "yarn@4.0.2"
 }
