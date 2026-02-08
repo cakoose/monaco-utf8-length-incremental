@@ -427,6 +427,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tsconfig/strictest@npm:^2.0.8":
+  version: 2.0.8
+  resolution: "@tsconfig/strictest@npm:2.0.8"
+  checksum: 10c0/96d7f1c6988c284886e7f2caea87415a6ebc779dc24c3f102cfa83b7d924da1363176b09c4600d11a1205bf2d819f35515c542a4bbcbe2fe13c1d7833376d203
+  languageName: node
+  linkType: hard
+
 "@types/estree@npm:1.0.8":
   version: 1.0.8
   resolution: "@types/estree@npm:1.0.8"
@@ -889,10 +896,14 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "monaco-utf8-length-incremental@workspace:."
   dependencies:
+    "@tsconfig/strictest": "npm:^2.0.8"
     monaco-editor: "npm:0.55.1"
     typescript: "npm:5.9.3"
     vite: "npm:6.2.0"
     vite-plugin-checker: "npm:^0.12.0"
+  dependenciesMeta:
+    "@tsconfig/strictest@2.0.8":
+      unplugged: true
   languageName: unknown
   linkType: soft
 

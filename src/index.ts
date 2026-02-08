@@ -21,6 +21,9 @@ type State = {
 let state: State | null = null;
 
 const countDisplay = document.getElementById("count-display");
+if (countDisplay === null) {
+    throw new Error("count-display element not found");
+}
 const updateCountDisplay = (monacoLength: number, countState: CountState): void => {
     const text = countState === null ? "no model loaded" : `Monaco length: ${monacoLength}, JS String#length: ${countState.jsLength}, UTF-8 length: ${countState.utf8Length}`;
     while (countDisplay.firstChild) {
@@ -97,7 +100,12 @@ const onDidChangeModel = (): void => {
     }
 };
 
-const editor = monaco.editor.create(document.getElementById("monaco-editor"), {
+const editorElement = document.getElementById("monaco-editor");
+if (editorElement === null) {
+    throw new Error("monaco-editor element not found");
+}
+
+const editor = monaco.editor.create(editorElement, {
     value: "🚀",
     scrollBeyondLastLine: false,
 });
