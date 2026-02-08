@@ -1,3 +1,4 @@
+import "./monaco_workers";
 import * as monaco from "monaco-editor";
 import "./index.css";
 
@@ -98,6 +99,7 @@ const onDidChangeModel = (): void => {
 
 const editor = monaco.editor.create(document.getElementById("monaco-editor"), {
     value: "🚀",
+    scrollBeyondLastLine: false,
 });
 
 editor.onDidChangeModel(onDidChangeModel);

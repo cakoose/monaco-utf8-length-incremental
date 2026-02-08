@@ -2,23 +2,16 @@
   "name": "monaco-utf8-length-incremental",
   "license": "CC0-1.0",
   "scripts": {
-    "start": "webpack serve",
-    "build": "webpack"
+    "start": "vite",
+    "build": "vite build"
   },
   "dependencies": {
-    "monaco-editor": "0.55.1",
-    "monaco-editor-webpack-plugin": "7.1.1"
+    "monaco-editor": "0.55.1"
   },
   "devDependencies": {
-    "css-loader": "7.1.3",
-    "file-loader": "6.2.0",
-    "html-webpack-plugin": "5.6.6",
-    "style-loader": "4.0.0",
-    "ts-loader": "9.5.4",
     "typescript": "5.9.3",
-    "webpack": "5.105.0",
-    "webpack-cli": "6.0.1",
-    "webpack-dev-server": "5.2.3"
+    "vite": "6.2.0",
+    "vite-plugin-checker": "^0.12.0"
   },
   "version": "0.0.0",
   "packageManager": "yarn@4.12.0"
